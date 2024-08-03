@@ -88,8 +88,13 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
-    margin-top: 10px;
+    position: fixed; 
+    bottom: 0; 
+    width: 100%; 
+    margin: 0; 
+    box-sizing: border-box; 
 }
+
 
 /* Responsividade */
 @media (max-width: 768px) {
@@ -105,5 +110,5 @@ footer {
 }
 img 
 {
-    size: 1px;cm;
+    size: 1px, cm;
 }
